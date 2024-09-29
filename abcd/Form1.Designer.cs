@@ -72,6 +72,7 @@
             this.txtA.Size = new System.Drawing.Size(35, 16);
             this.txtA.TabIndex = 3;
             this.txtA.Text = "Số a";
+            this.txtA.Click += new System.EventHandler(this.txtA_Click);
             // 
             // txtB
             // 
